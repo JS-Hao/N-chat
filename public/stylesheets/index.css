@@ -1,0 +1,144 @@
+.container {
+    width: 360px;
+    height: 600px;
+    background: #fff;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -300px;
+}
+
+/* 在线用户列表 */
+#users_online {
+    background: #353537;
+    height: 50px;
+}
+#user_label {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+#users_list {
+    display: none;
+}
+
+/* 聊天内容 */
+#content_show {
+    width: 360px;
+    height: 502px;
+    background: #ebebeb;
+    overflow-y: scroll;
+}
+#content_saying {
+    width: 100%;
+    background: #f5f5f7;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    position: absolute;
+    bottom: 0;
+}
+#input_content {
+    float: left;
+    height: 24px;
+    background: #fcfcfc;
+    width: 270px;
+    line-height: 24px;
+    margin-left: 9px;
+    padding-left: 9px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 14px;
+}
+#say {
+    width: 50px;
+    height: 30px;
+    background: #1cac19;
+    float: right;
+    margin-right: 9px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 系统消息 */
+.system_message {
+    text-align: center;
+    padding: 5px;
+}
+.system_message span {
+    text-align: center; 
+    background: #ccc;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+/* 消息 */
+.message_box {
+    margin-left: 9px;
+}
+.message_box img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #000;
+}
+.message_box .text_box {
+    margin-left: 9px;
+    float: left;
+}
+.message_box .user_name {
+    padding-left: 9px;
+    color: #82828a;
+}
+.message_box .text {
+    margin-top: 4px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 0 7px 7px 7px;
+    border: 1px solid #ccc;
+    max-width: 260px;
+}
+
+.message_box_self {
+    margin-right: 9px;
+}
+.message_box_self img {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    float: right;
+}
+.message_box_self .text_box {
+    margin-right: 9px;
+    float: right;
+}
+.message_box_self .user_name {
+    padding-right: 9px;
+    color: #82828a;
+    min-height: 5px;
+}
+.message_box_self .text {
+    margin-top: 4px;
+    padding: 10px;
+    background: #5aff57;
+    border-radius: 7px 0 7px 7px;
+    border: 1px solid #ccc;
+    max-width: 260px;
+}
+.message_box_self .text.spec, 
+ .message_box .text.spec {
+    background: #802a73;
+    color: #fff;
+    border: 1px solid #039dff;
+}

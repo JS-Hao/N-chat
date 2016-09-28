@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>登陆</title>
+<link type="text/css" rel="stylesheet" href="stylesheets/reset.css">
+<link type="text/css" rel="stylesheet" href="stylesheets/signin.css">
+</head>
+<body>
+  <div id="content" class="container">
+    <form method="post">
+      <div class="logo">
+        <img src="images/1.jpg" num="1">
+      </div>
+      <div class="form_line input_line clearfix">
+        <div class="form_label">昵称</div>
+        <input type="text" name="name" />
+        <input class="photo" type="text" name="photo" value="1" style="display: none;">
+      </div>
+      <div class="form_line button_line">
+        <div class="form_label"></div>
+        <button class="button gray" type="submit">登录</button>
+        <!-- <button class="button gray" type="reset">取消</button> -->
+      </div>
+    </form>
+    <div class="alert">
+        <%= info %>
+    </div>
+  </div>
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/signin.js"></script>
+</body>
+</html>
