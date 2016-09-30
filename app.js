@@ -115,7 +115,7 @@ io.sockets.on('connection', function(socket) {
   })
 });
 
-server.listen(80, function() {
+server.listen(3000, function() {
   console.log('server is running!');
 });
 
